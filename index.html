@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruitment Startup</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="gsf">
+            <h1>Welcome to Our Recruitment Startup</h1>
+            <p>
+              Find the perfect candidates for your company or discover your
+              dream job today!
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="job-search-section">
+      <div class="container">
+        <h2>Search for Jobs</h2>
+        <form onsubmit="searchJobs(event)">
+          <div class="form-row">
+            <div class="col-md-4">
+              <input
+                type="text"
+                id="jobTitle"
+                class="form-control"
+                placeholder="Job title"
+              />
+            </div>
+            <div class="col-md-4">
+              <input
+                type="text"
+                id="location"
+                class="form-control"
+                placeholder="Location"
+              />
+            </div>
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Job search results section -->
+    <section id="job-search-results" class="job-search-results-section py-5">
+      <div class="container">
+        <!-- The filtered job listings will be displayed here -->
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Recruitment Startup. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, pink, yellow);
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: rgb(14, 211, 229);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.icons a {
+  color: #333;
+  margin-left: 10px;
+}
+.container {
+  position: relative;
+  display: flex;
+}
+/* Add your custom styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.job-search-section {
+  background-color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-section {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  font-size: 35px;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
+  background: #ffffff;
+  padding: 10px;
+}
